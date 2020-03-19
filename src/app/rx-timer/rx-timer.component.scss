@@ -1,0 +1,23 @@
+.controls{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly ;
+  width: 100%;
+  max-width: 300px;
+  button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    &:hover{
+      box-shadow: 1px 3px 5px #888888;
+    }
+  }
+  #stop{
+    background-color: red;
+  }
+  #start{
+    background-color: green;
+  }
+}
